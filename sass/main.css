@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Outfit:wght@300;400;600&display=swap");
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Outfit', sans-serif; */
+body {
+  width: 1440px;
+  margin: 90px auto;
+  background-color: #0d192b;
+  /* Card Desgin css code */
+  /* Footer Design CSS Code */
+}
+
+body .card {
+  width: 300px;
+  margin: auto;
+  padding: 22px;
+  background-color: #14253d;
+  border-radius: 3.5%;
+  -webkit-box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
+  /* Inner card iamge and content css code */
+}
+
+body .card .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  /* Profile Image & Image Hover Effect CSS Code */
+  /* Inner Card h1 tag CSS Code */
+  /* this is a horizontal line design css code */
+}
+
+body .card .content .imageBox {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border-radius: 3%;
+  /* Inner Image Box Images Box CSS Code */
+}
+
+body .card .content .imageBox .crypto {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 3%;
+}
+
+body .card .content .imageBox .crypto .eth {
+  width: 100%;
+  height: 100%;
+  border-radius: 3%;
+}
+
+body .card .content .imageBox .viewEye {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 3%;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  align-items: center;
+  background: rgba(0, 255, 247, 0.5);
+  opacity: 0;
+  cursor: pointer;
+}
+
+body .card .content .imageBox .viewEye .eye {
+  width: 100%;
+  height: 100%;
+  border-radius: 3%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 15%;
+  height: 15%;
+}
+
+body .card .content .imageBox .viewEye:hover {
+  opacity: 1;
+}
+
+body .card .content h1 {
+  font-size: 1.3rem;
+  margin-bottom: 0px;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Outfit', sans-serif;
+}
+
+body .card .content h1:hover {
+  cursor: pointer;
+  color: #00fff7;
+}
+
+body .card .content p {
+  font-size: 18px;
+  color: #8bacda;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Outfit', sans-serif;
+}
+
+body .card .content .icon {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 7px;
+  padding-bottom: 13px;
+}
+
+body .card .content .icon .span1 {
+  font-size: 15px;
+  font-weight: bold;
+  color: #00fff7;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Outfit', sans-serif;
+}
+
+body .card .content .icon .span1 .img1 {
+  margin-right: 8px;
+}
+
+body .card .content .icon .span1 .div1 {
+  margin-left: 22px;
+  margin-top: -22px;
+}
+
+body .card .content .icon .span2 {
+  font-size: 15px;
+  font-weight: bold;
+  color: #00fff7;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Outfit', sans-serif;
+  font-weight: normal;
+  color: #8bacda;
+}
+
+body .card .content .icon .span2 .img2 {
+  margin-right: 8px;
+}
+
+body .card .content .icon .span2 .div1 {
+  margin-left: 22px;
+  margin-top: -22px;
+}
+
+body .card .content .line {
+  width: 95%;
+  color: #2f415b;
+}
+
+body .card .content .views {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 9px;
+  color: white;
+}
+
+body .card .content .views .view1 {
+  width: 10%;
+  margin-right: 15px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+body .card .content .views .span3 {
+  font-size: 16px;
+  padding-top: 6px;
+  color: #8bacda;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Outfit', sans-serif;
+}
+
+body .card .content .views .span4 {
+  color: white;
+}
+
+body .card .content .views .span4:hover {
+  cursor: pointer;
+  color: #00fff7;
+}
+
+body footer {
+  padding: 15px;
+  margin: 15px auto;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  letter-spacing: 2px;
+}
+
+body footer a {
+  color: orange;
+  cursor: pointer;
+}
+
+body footer a:hover {
+  text-decoration: none;
+  color: coral;
+}
+
+/* This small code make your web Page responsive */
+@media screen and (max-width: 1500px) {
+  body {
+    width: auto;
+  }
+}
+
+@media all and (max-width: 555px) {
+  footer {
+    line-height: 1.9;
+  }
+}
+/*# sourceMappingURL=main.css.map */
