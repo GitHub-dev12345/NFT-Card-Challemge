@@ -2,7 +2,13 @@
 
 ![Design preview for the NFT preview card component coding challenge](./design/desktop-preview.jpg)
 
-## Welcome! 👋
+## Welcome! 👋.
+
+My Deployment Links.
+
+Netlfiy Link :  https://nftcardchallenge.netlify.app/ .
+
+GitHub Pages Link : https://github-dev12345.github.io/NFT-Card-Challemge/
 
 Thanks for checking out this front-end coding challenge.
 
