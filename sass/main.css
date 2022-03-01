@@ -4,7 +4,7 @@ body {
   background-color: #0d192b;
 }
 
-body .card {
+main {
   width: 300px;
   margin: auto;
   padding: 22px;
@@ -16,7 +16,7 @@ body .card {
           transform: scale(0.9);
 }
 
-body .card .content {
+.content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -26,27 +26,27 @@ body .card .content {
           flex-direction: column;
 }
 
-body .card .content .imageBox {
+.imageBox {
   position: relative;
   width: 300px;
   height: 300px;
   border-radius: 3%;
 }
 
-body .card .content .imageBox .crypto {
+.crypto {
   position: absolute;
   width: 100%;
   height: 100%;
   border-radius: 3%;
 }
 
-body .card .content .imageBox .crypto .eth {
+.eth {
   width: 100%;
   height: 100%;
   border-radius: 3%;
 }
 
-body .card .content .imageBox .viewEye {
+.viewEye {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -57,21 +57,17 @@ body .card .content .imageBox .viewEye {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  display: flex;
+  background: rgba(0, 255, 247, 0.5);
+  opacity: 0;
   position: absolute;
   width: 100%;
   height: 100%;
   border-radius: 3%;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  align-items: center;
-  background: rgba(0, 255, 247, 0.5);
-  opacity: 0;
   cursor: pointer;
 }
 
-body .card .content .imageBox .viewEye .eye {
+.eye {
   width: 100%;
   height: 100%;
   border-radius: 3%;
@@ -82,11 +78,11 @@ body .card .content .imageBox .viewEye .eye {
   height: 15%;
 }
 
-body .card .content .imageBox .viewEye:hover {
+.eye:hover {
   opacity: 1;
 }
 
-body .card .content h1 {
+h1 {
   font-size: 1.3rem;
   margin-bottom: 0px;
   color: white;
@@ -94,19 +90,19 @@ body .card .content h1 {
   font-family: 'Outfit', sans-serif;
 }
 
-body .card .content h1:hover {
+h1:hover {
   cursor: pointer;
   color: #00fff7;
 }
 
-body .card .content p {
+p {
   font-size: 18px;
   color: #8bacda;
   font-family: 'Open Sans', sans-serif;
   font-family: 'Outfit', sans-serif;
 }
 
-body .card .content .icon {
+.icon {
   cursor: pointer;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -122,7 +118,7 @@ body .card .content .icon {
   padding-bottom: 13px;
 }
 
-body .card .content .icon .span1 {
+.span1 {
   font-size: 15px;
   font-weight: bold;
   color: #00fff7;
@@ -130,16 +126,11 @@ body .card .content .icon .span1 {
   font-family: 'Outfit', sans-serif;
 }
 
-body .card .content .icon .span1 .img1 {
+.span1 .img1 {
   margin-right: 8px;
 }
 
-body .card .content .icon .span1 .div1 {
-  margin-left: 22px;
-  margin-top: -22px;
-}
-
-body .card .content .icon .span2 {
+.span2 {
   font-size: 15px;
   font-weight: bold;
   color: #00fff7;
@@ -149,21 +140,21 @@ body .card .content .icon .span2 {
   color: #8bacda;
 }
 
-body .card .content .icon .span2 .img2 {
+.span2 .img2 {
   margin-right: 8px;
 }
 
-body .card .content .icon .span2 .div1 {
+.div1 {
   margin-left: 22px;
   margin-top: -22px;
 }
 
-body .card .content .line {
+.line {
   width: 95%;
   color: #2f415b;
 }
 
-body .card .content .views {
+.views {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -175,14 +166,14 @@ body .card .content .views {
   color: white;
 }
 
-body .card .content .views .view1 {
+.view1 {
   width: 10%;
   margin-right: 15px;
   border: 2px solid white;
   border-radius: 50%;
 }
 
-body .card .content .views .span3 {
+.span3 {
   font-size: 16px;
   padding-top: 6px;
   color: #8bacda;
@@ -190,16 +181,16 @@ body .card .content .views .span3 {
   font-family: 'Outfit', sans-serif;
 }
 
-body .card .content .views .span4 {
+.span4 {
   color: white;
 }
 
-body .card .content .views .span4:hover {
+.span4:hover {
   cursor: pointer;
   color: #00fff7;
 }
 
-body footer {
+footer {
   padding: 15px;
   margin: 15px auto;
   text-align: center;
@@ -210,12 +201,12 @@ body footer {
   letter-spacing: 2px;
 }
 
-body footer a {
+.contact {
   color: orange;
   cursor: pointer;
 }
 
-body footer a:hover {
+.contact:hover {
   text-decoration: none;
   color: coral;
 }

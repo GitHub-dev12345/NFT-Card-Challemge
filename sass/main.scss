@@ -11,99 +11,103 @@
 body{
     margin: 90px auto;
     background-color: hsl(217, 54%, 11%);
-    .card{
-        @include card;
-        .content{
-            display: flex;
-            flex-direction: column;
-            .imageBox{
-                @include imgBox;
-                .crypto{
-                    @include cryp;
-                    .eth{
-                        @include eye;
-                    }
-                }
-                .viewEye{
-                    @include viewEye;
-                    .eye{
-                        @include eye;
-                        align-self: center;
-                        width: 15%;
-                        height: 15%;
-                    }
-                    &:hover{
-                        opacity: 1;
-                    }
-                }
-            }
-            h1{
-                @include contentH1;
-                &:hover{
-                    cursor: pointer;
-                    color: hsl(178, 100%, 50%);
-                }
-            }
-            p{
-                @include contentP;
-            }
-            .icon{
-                @include contentIcon;
-                .span1{
-                    @include span;
-                    .img1{
-                        margin-right: 8px;
-                    }
-                    .div1{
-                        margin-left: 22px;
-                        margin-top: -22px;
-                    }
-                }
-                .span2{
-                    @include span;
-                    font-weight: normal;
-                    color: hsl(215, 51%, 70%);
-                    .img2{
-                        margin-right: 8px;
-                    }
-                    .div1{
-                        margin-left: 22px;
-                        margin-top: -22px;
-                    }
-                }
-            }
-            .line{
-                width: 95%;
-                color: hsl(215, 32%, 27%);
-            }
-            .views{
-                @include views;
-                .view1{
-                    @include view1;
-                }
-                .span3{
-                    @include span3;
-                }
-                .span4{
-                    color: white;
-                    &:hover{
-                        cursor: pointer;
-                        color: hsl(178, 100%, 50%);
-                    }
-                }
-            }
-        }
+}
+main{
+    @include card;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.imageBox{
+    @include imgBox;
+}
+.crypto{
+    @include cryp;
+}
+.eth{
+    @include eye;
+}
+.viewEye{
+    @include flexbox(center, center);
+    display: flex;
+    background: hsla(178, 100%, 50%, 0.5);  
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 3%;
+    cursor: pointer;
+}
+.eye{
+    @include eye;
+    align-self: center;
+    width: 15%;
+    height: 15%;
+    &:hover{
+        opacity: 1;
     }
-    footer{
-        @include footer;
-        a{
-            color: orange;
-            cursor: pointer;
-            &:hover{
-                text-decoration: none;
-                color: coral;
-            }
-        }
+}
+h1{
+    @include contentH1;
+    &:hover{
+        cursor: pointer;
+        color: hsl(178, 100%, 50%);
+    }
+}
+p{
+    @include contentP;
+}
+.icon{
+    @include contentIcon;
+}
+.span1{
+    @include span;
+    .img1{
+        margin-right: 8px;
+    }
+}
+.span2{
+    @include span;
+    font-weight: normal;
+    color: hsl(215, 51%, 70%);
+    .img2{
+        margin-right: 8px;
+    }
+}
+.div1{
+    margin-left: 22px;
+    margin-top: -22px;
+}
+.line{
+    width: 95%;
+    color: hsl(215, 32%, 27%);
+}
+.views{
+    @include views;
+}
+.view1{
+    @include view1;
+}
+.span3{
+    @include span3;
+}
+.span4{
+    color: white;
+    &:hover{
+        cursor: pointer;
+        color: hsl(178, 100%, 50%);
+    }
+}
+footer{
+    @include footer;
+}
+.contact{
+    color: orange;
+    cursor: pointer;
+    &:hover{
+        text-decoration: none;
+        color: coral;
     }
 }
 //This small code make your web Page responsive 

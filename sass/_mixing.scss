@@ -49,18 +49,6 @@
     border-radius: 3%;
 }
 
-// Inner Image container second image mixinhg code
-@mixin ViewEye {
-    @include flexbox(center, center);
-    @include cryp;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: hsla(178, 100%, 50%, 0.5);  
-    opacity: 0;
-    cursor: pointer;
-}
-
 // Inner Card Content h1 tag Mixing code
 @mixin contentH1 {
     font-size: 1.3rem;
