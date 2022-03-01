@@ -1,0 +1,31 @@
+// Mixing
+@mixin flexbox($jusC, $aliI) {
+    display: flex;
+    flex-direction: column;
+    $jusC: $jusC;
+    align-items: $aliI;
+}
+
+// Crypto image mixing code
+@mixin cryp {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 3%;
+}
+
+// Inner Crypto image mixin code
+@mixin eye {
+    width: 100%;
+    height: 100%;
+    border-radius: 3%;
+}
+
+// In imageBox class span tag Mixin code
+@mixin span {
+    font-size: 15px;
+    font-weight: bold;
+    color: hsl(178, 100%, 50%);
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
+}

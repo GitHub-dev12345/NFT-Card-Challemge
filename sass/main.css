@@ -1,12 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Outfit:wght@300;400;600&display=swap");
-/* font-family: 'Open Sans', sans-serif;
-font-family: 'Outfit', sans-serif; */
 body {
-  width: 1440px;
   margin: 90px auto;
   background-color: #0d192b;
-  /* Card Desgin css code */
-  /* Footer Design CSS Code */
 }
 
 body .card {
@@ -17,7 +12,8 @@ body .card {
   border-radius: 3.5%;
   -webkit-box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
           box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
-  /* Inner card iamge and content css code */
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
 }
 
 body .card .content {
@@ -28,9 +24,6 @@ body .card .content {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  /* Profile Image & Image Hover Effect CSS Code */
-  /* Inner Card h1 tag CSS Code */
-  /* this is a horizontal line design css code */
 }
 
 body .card .content .imageBox {
@@ -38,7 +31,6 @@ body .card .content .imageBox {
   width: 300px;
   height: 300px;
   border-radius: 3%;
-  /* Inner Image Box Images Box CSS Code */
 }
 
 body .card .content .imageBox .crypto {
@@ -228,7 +220,6 @@ body footer a:hover {
   color: coral;
 }
 
-/* This small code make your web Page responsive */
 @media screen and (max-width: 1500px) {
   body {
     width: auto;
@@ -238,6 +229,16 @@ body footer a:hover {
 @media all and (max-width: 555px) {
   footer {
     line-height: 1.9;
+  }
+}
+
+@media all and (max-width: 370px) {
+  body {
+    margin: 15px auto;
+    -webkit-transform: scale(0.81);
+            transform: scale(0.81);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
   }
 }
 /*# sourceMappingURL=main.css.map */
