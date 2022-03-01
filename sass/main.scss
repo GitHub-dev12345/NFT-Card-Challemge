@@ -54,6 +54,9 @@ h1{
         cursor: pointer;
         color: hsl(178, 100%, 50%);
     }
+    &:focus-visible{
+        opacity: 0.6;
+    }
 }
 p{
     @include contentP;
@@ -98,6 +101,9 @@ p{
         cursor: pointer;
         color: hsl(178, 100%, 50%);
     }
+    &:focus-visible{
+        opacity: 0.6;
+    }
 }
 footer{
     @include footer;
@@ -108,6 +114,9 @@ footer{
     &:hover{
         text-decoration: none;
         color: coral;
+    }
+    &:focus-visible{
+        opacity: 0.6;
     }
 }
 //This small code make your web Page responsive 
