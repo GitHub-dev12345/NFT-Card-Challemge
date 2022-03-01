@@ -96,7 +96,7 @@ h1:hover {
 }
 
 h1:focus-visible {
-  opacity: 0.6;
+  opacity: 0.2;
 }
 
 p {
@@ -195,7 +195,7 @@ p {
 }
 
 .span4:focus-visible {
-  opacity: 0.6;
+  opacity: 0.5;
 }
 
 footer {
