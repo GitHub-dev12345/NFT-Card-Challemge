@@ -66,18 +66,20 @@ p{
 }
 .span1{
     @include span;
-    .img1{
-        margin-right: 8px;
-    }
 }
+.img1{
+    margin-right: 8px;
+}
+
 .span2{
     @include span;
     font-weight: normal;
     color: hsl(215, 51%, 70%);
-    .img2{
-        margin-right: 8px;
-    }
 }
+.img2{
+    margin-right: 8px;
+}
+
 .div1{
     margin-left: 22px;
     margin-top: -22px;
