@@ -57,8 +57,7 @@ main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  display: flex;
-  background: rgba(0, 255, 247, 0.5);
+  background: rgba(0, 255, 247, 0.8);
   opacity: 0;
   position: absolute;
   width: 100%;
@@ -67,19 +66,15 @@ main {
   cursor: pointer;
 }
 
-.eye {
-  width: 100%;
-  height: 100%;
-  border-radius: 3%;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-  width: 15%;
-  height: 15%;
+.viewEye:hover {
+  opacity: 1;
 }
 
-.eye:hover {
-  opacity: 1;
+.eye {
+  width: 15%;
+  height: 15%;
+  margin-top: 8rem;
+  border-radius: 3%;
 }
 
 h1 {
